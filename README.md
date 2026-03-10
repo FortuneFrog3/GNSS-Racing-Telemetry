@@ -2,22 +2,19 @@
 
 How to run
 
-Create virtual envioroment:
-(Windows)
-python -m venv .venv
+1. Create virtual envioroment:
+  (Windows)
+  python -m venv .venv
 
-Activate it:
-(Windows) .venv\Scripts\activate  (Mac or Linux) source .venv/bin/activate
+2. Activate it:
+  (Windows) .venv\Scripts\activate
+  (Mac or Linux) source .venv/bin/activate
 
-Activate it:
-(Windows)
-.venv\Scripts\activate
+3. (Mac or Linux)
+  source .venv\bin\activate
 
-(Mac or Linux)
-source .venv\bin\activate
+4. Install libraries:
+  pip install  -r requirements.txt
 
-Install libraries:
-pip install  -r requirements.txt
-
-Run:
-python -m src.main
+5. Run:
+  python -m src.main
