@@ -1,0 +1,7 @@
+PySide6
+pyqtgraph
+pyserial
+firebase-admin
+requests
+pytest
+python-dotenv
